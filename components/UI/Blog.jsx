@@ -9,7 +9,7 @@ const Blog = ({ blogs, blogDomain }) => {
   const [filter, setFilter] = useState("Mobile App");
   const [data, setData] = useState();
 
-  const active = `${classes.tab__btn__active}`;
+  let active = `${classes.tab__btn__active}`;
 
   return (
     <section id="blogs">
